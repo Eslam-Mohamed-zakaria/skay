@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+#home{
+    margin: 1rem 7rem;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+nav .logo{
+    display: flex;
+    letter-spacing: 2px;
+}
+nav .logo img {
+    width: 60px;
+}
+nav .logo span{
+    color: blue;
+    font-size: 20px;
+}
+nav .lin ul{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: rgb(5, 1, 0);
+    font-weight: 600;
+    font-size: 17px; 
+    transition: 0.2s;
+}
+nav a:hover{
+    color: blue;
+}
+nav .con .x{
+    color: aliceblue;
+    background-color: blue;
+    padding: 7px 12px ;
+    border-radius: 20px;
+}
+nav .con .x:hover{
+    background-color: darkblue;
+}
+header h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 2px;
+    letter-spacing: 3px;
+}
+header h1 span{
+    font-size: 25px;
+    font-weight: 600;
+    color: blue;
+    letter-spacing: 1px;
+}
+header .im img{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#home2{
+    margin: 1rem 7rem;
+
+    height: 50vh;
+    box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.5);
+}
+#home2 .x1{
+    display: flex;
+    justify-content: space-around;
+}
+#home2 .btn{
+    display: flex;
+    justify-content: center;
+}
+#home2 .btn a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    margin: 50px 50px 0 ;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+#home2 .btn .b2{
+    padding: 10px 45px;
+    background-color: blue;
+    color: aliceblue;
+}
+#home2 .btn .b3{
+    padding: 10px 60px;
+}
+#home2 .info1{
+    display: flex;
+    margin: 100px 0 0 15px;
+}
+#home2 .info1 .icon1{
+    height: 28px;
+    width: 25px;
+    padding-top: 10px;
+    padding-left: 12px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:7px;
+}
+#home2 .info1 .con input{ 
+    margin: 5px 0;
+}
+#home2 .info1 .con h3{
+    letter-spacing: 1px;
+}
+#home2 .info1 .con p{
+    color: grey;
+    font-weight: 500;
+}
+#home2 .sc{
+    width: 30px;
+    height: 30px;
+    margin-top: 119px;
+    padding-left: 13px;
+    padding-top: 11px;
+    border-radius: 10px;
+    background-color: blue;
+}
+#home2 .sc a{
+    color: aliceblue;
+}
+#home2 .sc:hover{
+    background-color: darkblue;
+}
+#home2 .con input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#home3{
+    margin: 1rem 7rem;
+
+    height: 100vh;
+}
+#home3 .content{
+    display: flex;
+}
+#home3 .tittle{
+    text-align: center;
+    margin-top: 50px;
+}
+#home3 .tittle h4{
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+#home3 .tittle h1{ 
+    font-size: 40px;
+    letter-spacing: 1px; 
+    margin: 20px 0;
+}
+#home3 .tittle p{
+    color: darkgray;
+}
+#home3 .content .info{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+#home3 .content h1{
+    width: 22px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: blue;
+}
+#home3 .content h2{
+    min-width: 400px;
+    width: 40%;
+}
+#home3 .content p{
+    min-width: 400px;
+    width: 40%;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+#home3 .im img{
+    width: 470px;
+    margin-top: 95px;
+    margin-right: 80px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+#home4{
+    height: 100vh;
+    background-color: silver;}
+#home4 .contanier {
+    margin: 1rem 7rem;
+}
+#home4 .contanier .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+#home4 .contanier .up h1{
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+}
+#home4 .contanier .up h2{
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+#home4 .contanier .up .btn{
+    background-color: blue;
+    border-radius: 18px;
+}
+#home4 .contanier .up .btn:hover{
+    background-color: darkblue;
+}
+#home4 .contanier .up .btn a{
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#home4 .contanier .down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#home4 .contanier .down h1{
+    text-align: center;
+    margin: 25px 0;
+}
+#home4 .contanier .down p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#home4 .contanier .down  span{
+    display: inline-block;
+    font-size: 50px;
+    background-color: blue;
+    padding: 15px 25px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+#home4 .contanier .down .n1{
+    background-color: rgb(245, 245, 239);
+    padding: 80px 10px 30px;
+    border-radius: 50px;
+}
+#home5 .contanier{
+    margin: 1rem 7rem;
+    height: 100vh;
+    padding: 0 10px;
+}
+#home5 .contanier .up h1{
+    margin: 0px 0 100px 0;
+    padding-top: 50px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+#home5 .contanier .im img{
+    width: 270px;
+    height: 350px;
+    border-radius: 50px;
+}
+#home5 .contanier .i img{
+    width: 70px;
+    border-radius: 50%;
+}
+#home5 .contanier .dwon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home5 .contanier .dwon .i{
+    justify-content: center;
+    margin-top: -100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.5);
+}
+#home5 .contanier .dwon .i h3{
+    color: darkgray;
+}
+#home6{
+    background-color: silver;
+}
+#home6 .contanier{
+    margin: 0 7rem;
+    height: 40vh;
+}
+#home6 .contanier .inf h1{
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 1px;    
+}
+#home6 .contanier .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+#home6 .contanier .btn input{
+    padding: 10px 80px 10px 20px;
+    border-radius: 15px;
+    border: none;
+}
+#home6 .contanier .btn a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    }
+#home6 .contanier .btn a:hover{
+    background-color: darkblue;
+}
+#home7{
+    background-color: blue;
+}
+#home7 .contanier{
+    margin: 0 7rem;
+    height: 60vh;
+}
+#home7 .contanier .up{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+#home7 .contanier .up h1{
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+#home7 .contanier .up .n1 p{
+    width: 400px;
+    color: aliceblue;
+}
+#home7 .contanier .up .n2 h4{
+    margin-top: 10px;
+    color: whitesmoke;
+}
+#home7 .contanier .up .n2 ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+#home7 .contanier .up .n2 ul li a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 17px 0;
+}
+#home7 .contanier .up .n2 ul li a:hover{
+    color: darkblue;
+}
+#home7 .contanier .up .n3 h4{
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+#home7 .contanier .up .n3 ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+#home7 .contanier .up .n3 ul li a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 17px 0;
+}
+#home7 .contanier .up .n3 ul li a:hover{
+    color: darkblue;
+}
+#home7 .contanier .dwon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    height: 40px;
+    border-top: 1px solid whitesmoke;
+    margin-top: 40px;
+    
+}
+#home7 .contanier .dwon span{
+    margin: 50px 80px 10;  
+    color: aliceblue;  
+}
+#home7 .contanier .dwon span a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#home7 .contanier .dwon span a:hover{
+    color: darkblue;
+}
+#home7 .contanier .dwon .s{
+    margin-top: 5px;
+}
+#home7 .contanier .dwon .s a{
+    margin-right: 10px;
+}
